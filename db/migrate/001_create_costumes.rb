@@ -5,7 +5,7 @@
 # 002_create_costumes.rb becomes class CreateCostumes
 
 # Define a change method in which to do the migration
-# In this change method, create columns with the correct names and 
+# In this change method, create columns with the correct names and
 # value types according to the spec
 
 class Costume < ActiveRecord::Migration
@@ -18,6 +18,6 @@ class Costume < ActiveRecord::Migration
       t.string :url
     end
   end
-      
+
 
 end
