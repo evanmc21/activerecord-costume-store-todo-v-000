@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 3) do
 
-  create_table "costume_stores", force: :cascade do |t|
+  create_table "costume_store", force: :cascade do |t|
     t.string "name"
     t.string "location"
     t.integer "costume_inventory"
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.integer "price"
     t.string "size"
-    t.string "image_url"
+    t.string "url"
   end
 
   create_table "haunted_houses", force: :cascade do |t|
