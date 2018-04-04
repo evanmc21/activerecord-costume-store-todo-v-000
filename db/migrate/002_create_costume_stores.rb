@@ -9,8 +9,8 @@ class CostumeStore < ActiveRecord::Migration
       t.integer :costume_inventory
       t.integer :number_of_employees
       t.string :still_in_business
-      t.datetime :opening
-      t.datetime :closing
+      t.datetime :opening_time
+      t.datetime :closing_time
     end
   end
 
